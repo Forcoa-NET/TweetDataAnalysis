@@ -22,6 +22,8 @@ print()
 for member in tweepy.Cursor(api.list_members, 'HlidacStatu', 'cz-politici').items():
     print(member.screen_name)
 
+    for status in tweepy.Cursor(api.user_timeline, screen_name='@AndrejBabis', tweet_mode="extended", include_rts = False).items():
+        print(status.entities)
 
 # Get all tweets of one politic and find all mentions and retweets
 
