@@ -1,1 +1,1 @@
-# Twitter Czech Politics Analysis
+# Twitter Analysis
