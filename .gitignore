@@ -126,3 +126,4 @@ dmypy.json
 *.zip
 /Data/*
 src/Secrets.py
+src/tsecrets.py
